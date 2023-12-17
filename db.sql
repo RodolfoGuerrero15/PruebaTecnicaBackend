@@ -16,7 +16,7 @@ CREATE TABLE products (
     unit_price DECIMAL(10, 2) NOT NULL
 );
 
--- Table to associate products with orders (many-to-many relationship)
+-- Table to associate products with orders 
 CREATE TABLE order_products (
     order_number VARCHAR(255) NOT NULL,
     product_id INT,

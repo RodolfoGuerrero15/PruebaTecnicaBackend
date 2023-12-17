@@ -16,7 +16,7 @@ const getProductsFromOrder = (req,res)=>{
 }
 const postProductsFromOrder = (req,res)=>{
     products=req.body.products
-    order_number=req.body.order_number
+    order_number=req.body.orderNumber
     
     let i=0;
     while(i<products.length){
